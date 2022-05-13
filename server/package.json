@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "npm install express mongoose cors nodemon bcrypt bcryptjs jsonwebtoken dotenv"
+    "install": "npm install express mongoose cors nodemon bcrypt bcryptjs jsonwebtoken dotenv",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
